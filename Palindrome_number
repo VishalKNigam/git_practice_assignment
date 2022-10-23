@@ -1,0 +1,15 @@
+    let N=6;
+    let str="nrupul"
+    let revstr="";
+    for(i=N-1; i>=0; i--){
+        revstr+= str[i];
+        }
+        if(str==revstr){
+            console.log("no");
+            
+        }else{
+            console.log("yes");
+        }
+  
+            
+        
